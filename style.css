@@ -31,6 +31,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-decoration: none;
+
+    transition: background .2s linear;
 }
 
 /*  header
@@ -124,6 +126,10 @@ h1, h2, h3, h4, h5, h6 {
     
     border-radius: 5px;
     background: #981827;
+}
+
+.intro__btn:hover {
+    background: #be061c;   
 }
 
 .intro__img {
