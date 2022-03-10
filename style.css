@@ -91,16 +91,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro__content {
+    padding-right: 50px;
+
     width: 50%;
     flex-grow: 1;
 }
 
 .intro__title {
-
+    text-align: center;
+    font-family: 'thewitcher';
+    font-size: 48px;
 }
 
 .intro__text {
-
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .intro__btn {
@@ -110,5 +115,5 @@ h1, h2, h3, h4, h5, h6 {
 .intro__img {
     flex-grow: 1;
     width: 50%;
-    min-width: 445px;
+    min-width: 480px;
 }
