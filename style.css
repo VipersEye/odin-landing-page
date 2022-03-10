@@ -6,7 +6,7 @@
 body {
     margin: 0;
 
-    font-family: 'thewitcher', sans-serif;
+    font-family: 'Metamorphous', 'cursive', sans-serif;
     font-size: 18px;
 }
 
@@ -25,3 +25,51 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+/*  header
+============================ */
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+    padding: 25px;
+    width: 100%;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: 'thewitcher';
+    font-size: 24px;
+}
+
+.header__logo span {
+    color: #981827;
+}
+
+.nav {
+    display: flex;
+
+    font-family: 'thewitcher';
+    font-size: 18px;
+    
+}
+
+.nav__link {
+    margin-left: 20px;
+    
+    text-decoration: none;
+    color: #000;
+
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: #981827;
+}
