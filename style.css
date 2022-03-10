@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+.btn {
+
+}
+
 /*  header
 ============================ */
 
@@ -72,4 +76,39 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__link:hover {
     color: #981827;
+}
+
+
+/* intro ================================= */
+
+.intro {
+    padding: 140px 0;
+}
+
+.intro__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro__content {
+    width: 50%;
+    flex-grow: 1;
+}
+
+.intro__title {
+
+}
+
+.intro__text {
+
+}
+
+.intro__btn {
+
+}
+
+.intro__img {
+    flex-grow: 1;
+    width: 50%;
+    min-width: 445px;
 }
