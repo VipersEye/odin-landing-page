@@ -141,21 +141,28 @@ h1, h2, h3, h4, h5, h6 {
 /* info ================================ */
 
 .info {
+    margin: 90px 0;
 
+    text-align: center;
 }
 
 .info__title {
+    margin-bottom: 40px;
 
+    font-family: 'thewitcher';
+    font-size: 36px;
 }
 
 .info__inner {
+    margin: 0 -42px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .info__item {
-    padding: 0 40px;
+    padding: 0 42px;
     width: 25%;
     min-width: 280px;
 }
@@ -164,7 +171,11 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.info__text {
+.info__img img {
 
+}
+
+.info__text {
+    line-height: 1.5;
 }
 
