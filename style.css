@@ -101,6 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 
     background: url("./img/bg.jpg") center no-repeat rgb(158, 158, 158);
     background-size: cover;
+
+    color: #fff;
 }
 
 .intro__inner {
