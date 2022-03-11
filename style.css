@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info__inner {
-    margin: 0 -42px;
+    margin: 0 -15px;
     
     display: flex;
     flex-wrap: wrap;
@@ -223,4 +223,47 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-size: 20px;
     text-transform: capitalize;;
+}
+
+/* buy ================================ */
+
+.buy {
+    margin: 100px 0;
+}
+
+.buy__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    padding: 50px 100px;
+
+    background: #981827;
+    border-radius: 10px;
+}
+
+.buy__title {
+    font-family: 'thewitcher';
+    font-size: 25px;
+}
+
+.buy__text {
+    line-height: 1.5;
+}
+
+.btn__buy {
+    flex-shrink: 0;
+
+    padding: 10px 40px;
+    
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+
+    text-transform: uppercase;
+}
+
+.btn__buy:hover {
+    background: #380303;
 }
