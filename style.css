@@ -280,10 +280,13 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
 
     text-transform: uppercase;
+
+    transition: color .2s linear;
 }
 
 .btn__buy:hover {
-    background: #380303;
+    background: #ffffff;
+    color: #000;
 }
 
 /* footer =============================== */
