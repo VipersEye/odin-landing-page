@@ -3,6 +3,10 @@
     src: url("./the-witcher.ttf");
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 
