@@ -108,7 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 .intro__inner {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .intro__content {
@@ -303,4 +302,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
 
     background: #000;
+}
+
+@media (max-width: 991px) {
+    .intro__img {
+        height: 560px;
+    }
 }
