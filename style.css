@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro {
     padding: 140px 0;
 
-    background: url("./img/bg.jpg") center no-repeat rgb(158, 158, 158);
+    background: url("./img/snow.gif") center no-repeat;
     background-size: cover;
 
     color: #fff;
